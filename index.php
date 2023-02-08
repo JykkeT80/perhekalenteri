@@ -14,6 +14,11 @@
       <h1>Perhekalenteri</h1>
     </header>
     <section>
+      <style>
+        body {
+          background-color: blueviolet;
+        }
+        </style>
 
       <form action="kalenteri.php" method="GET" target="_blank">
 
