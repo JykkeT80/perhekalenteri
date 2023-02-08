@@ -7,6 +7,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Perhekalenteri</title>
   </head>
   <body>
@@ -14,12 +15,7 @@
       <h1>Perhekalenteri</h1>
     </header>
     <section>
-      <style>
-        body {
-          background-color: blueviolet;
-        }
-        </style>
-
+      
       <form action="kalenteri.php" method="GET" target="_blank">
 
         Vuosi: <input type="number" name="year" value="<?php echo date("Y"); ?>"><br>

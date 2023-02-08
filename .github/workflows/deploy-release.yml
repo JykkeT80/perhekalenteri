@@ -2,7 +2,11 @@ name: Release deploy to neutroni
 
 on:
   release:
+<<<<<<< HEAD
     types: [published]
+=======
+    types: [published]    
+>>>>>>> 8ef336e21607b9f21ea065a4b19b6c568baa8e28
 
 jobs:
   deploy:
